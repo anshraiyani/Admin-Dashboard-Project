@@ -1,38 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="dashboard">
-            <div class="logo">
-                <h1>Dashboard</h1>
-            </div>
-            <div class="left-nav-1">
-                <ul>
-                    <li>Home</li>
-                    <li>Progile</li>
-                    <li>Messages</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                    <li>Home</li>
-                </ul>
-            </div>
-            <div class="left-nav-2">
-                <ul>
-                    <li>Settings</li>
-                    <li>Support</li>
-                    <li>Privacy</li>
-                </ul>
-            </div>
-            <div class="left-nav-2"></div>
+      <div class="sidebar">
+        <div class="icon">
+          <img src="icons/account-card-outline.svg" alt="" />
+          <p>Dashboard</p>
         </div>
-        <div class="content"></div>
+        <div class="sidebar-nav-1">
+          <div class="nav-icons">
+            <img src="icons/home-variant-outline.svg" alt="" />
+            <p>Home</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/card-account-details.svg" alt="" />
+            <p>Profile</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/message-reply.svg" alt="" />
+            <p>Messages</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/clock-outline.svg" alt="" />
+            <p>History</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/book-open-page-variant-outline.svg" alt="" />
+            <p>Tasks</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/account-group.svg" alt="" />
+            <p>Communities</p>
+          </div>
+        </div>
+        <div class="sidebar-nav-2">
+          <div class="nav-icons">
+            <img src="icons/cog.svg" alt="" />
+            <p>Settings</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/help.svg" alt="" />
+            <p>Support</p>
+          </div>
+          <div class="nav-icons">
+            <img src="icons/shield-check.svg" alt="" />
+            <p>Privacy</p>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="navbar">
+          <div class="main-nav-1">
+            <div class="main-nav-icons">
+              <img src="icons/magnify.svg" alt=""/>
+              <input type="text" name="search" id="search" />
+            </div>
+            <div class="account-details">
+              <img src="icons/bell-ring-outline.svg" alt="" />
+              <img src="icons/account-circle.svg" alt="" />
+              <p>Ansh Raiyani</p>
+            </div>
+          </div>
+          <div class="main-nav-2">
+            <div class="greeting">
+                <div class="profile-pic">
+                    <img src="icons/account-circle.svg" alt="">
+                </div>
+                <div class="para">
+                    <p class="small">Hi there,</p>
+                    <p class="large">Ansh Raiyani (@ansh)</p>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn">New</button>
+                <button class="btn">Upload</button>
+                <button class="btn">Share</button>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+            <div class="projects">
+                <h3>Your Projects</h3>
+            </div>
+            <div class="announcements">
+                <h3>Announcements</h3>
+            </div>
+            <div class="trending">
+                <h3>Trending</h3>
+            </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
